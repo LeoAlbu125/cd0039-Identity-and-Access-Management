@@ -9,7 +9,11 @@ dotenv.load_dotenv(dotenv.find_dotenv())
 #database_filename = "database.db"
 #project_dir = os.path.dirname(os.path.abspath(__file__))
 #database_path = "sqlite:///{}".format(os.path.join(project_dir, database_filename))
+<<<<<<< HEAD
 database_path= "postgresql://{}".format(os.getenv("DB_NAME"))
+=======
+database_path= ""
+>>>>>>> 428a4e35e04f0d7c7a5d13a365dd1b5e0204ce65
 
 db = SQLAlchemy()
 
